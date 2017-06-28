@@ -1,0 +1,10 @@
+@relation 'Runtime dataset'
+
+@attribute 'category (att1)' {sports,finance,news}
+@attribute 'visits (att2)' numeric
+@attribute 'title (att3)' string
+@attribute 'posted (att4)' date yyyy-MM-dd
+
+@data
+sports,8527,'2012 Summer Olympics in London',2012-07-27
+finance,?,'Greek government debt crisis',2012-02-01
